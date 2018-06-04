@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boot Strap Lab</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <!--Linking a CSS file that basically does not do anything.-->
+</head>
+
+<!--Creating a header, centered across entire width of screen.-->
+
+<body>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col">
+                <h1 class="text-center">First Bootstrap Project</h1>
+            </div>
+        </div>
+
+        <!--Created 1 row with 3 columns, each with different alignment.-->
+        <div class="row mt-2">
+            <div class="col bg-primary text-left">
+                Column1
+            </div>
+
+            <div class="col bg-success text-center">
+                Column2
+            </div>
+
+            <div class="col bg-danger text-right">
+                Column3
+            </div>
+
+        </div>
+
+        <!--Creating an email and password input, 2 checkbox options, and 3 radio options with a Submit button.-->
+
+        <form>
+            <div class="form-group mt-4">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+            </div>
+            <div class="form-group mt-4">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <div class="form-check mt-4">
+                <input type="checkbox" class="form-check-input" id="checkboxCat">
+                <label class="form-check-label" for="checkboxCat">Cat</label>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="checkboxDog">
+                <label class="form-check-label" for="checkboxDog">Dog</label>
+            </div>
+
+            <div class="form-check mt-2">
+                <input type="radio" class="form-check-input" id="radioCheesePizza">
+                <label class="form-check-label" for="radioCheesePizza">Cheese Pizza</label>
+            </div>
+
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radioVeggiePizza">
+                <label class="form-check-label" for="radioVeggiePizza">Veggie Pizza</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="radioMeatPizza">
+                <label class="form-check-label" for="radioMeatPizza">Meat Pizza</label>
+            </div>
+
+            <button type="submit" class="btn btn-info mt-3">Submit</button>
+        </form>
+
+        <!--Created 6 cards with different information and played with margins/padding for better spacing.-->
+        <div class="row mt-4">
+            <div class="col-sm-4 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Friend #1</h3>
+                        <p class="card-text">This is the text about my friend #1.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Friend #2</h3>
+                        <p class="card-text">This is the text about my friend #2.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Friend #3</h3>
+                        <p class="card-text">This is the text about my friend #3.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Friend #4</h3>
+                        <p class="card-text">This is the text about my friend #4.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Friend #5</h3>
+                        <p class="card-text">This is the text about my friend #5.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 p-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Friend #6</h3>
+                        <p class="card-text">This is the text about my friend #6.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
